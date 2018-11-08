@@ -7,63 +7,71 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 
- 
+
 </head>
 
 <body>
   <div class="container">
-    <header>
-      <img src="images/logo.svg" alt="">
+    <header class="page-header">
+      <img class="logo" src="images/logo.svg" alt="">
       <h1>Build The Community Your Fans Will Love</h1>
     </header>
-  </div>
 
-  <main class="main tile">
-    <p> Huddle re-imagines the way we build communities. You have a voice, but so does
-      your audience. Create connections with your users as you engage in genuine discussion.
-    </p>
 
-  </main>
-  <div class="background-image">
-    <img src="images/screen-mockups.svg" alt="">
-  </div>
-  <div class="sidebar-top tile">
-    <h2>Sign Up For Early Access</h2>
-    <form class="signup-form">
-      <h3>Register</h3>
-      <label for="email">Username</label>
-      <input id="email" type="text" name="email" />
-      <button type="submit">Register</button>
-    </form>
-  </div>
+    <main class="main tile">
 
-  <footer>
-    <img src="images/logo.svg" alt="">
+      <section class="middle">
+        <div class="hero">
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does
+            your audience. Create connections with your users as you engage in genuine discussion.</p>
+        </div>
+        <div class="background-image">
+          <img src="images/screen-mockups.svg" alt="mockup" />
+
+        </div>
+      </section>
+
+      <section class="bottom">
+        <div class="sidebar-bottom">
+          <h2>Sign Up For Early Access</h2>
+          <form class="signup-form">
+            <input id="email" type="text" name="email" />
+            <button class="button" type="submit">Register</button>
+          </form>
+        </div>
+      </section>
+
+
+    </main>
+    
+  
+  <footer class="page-footer">
+    <img class="footer-logo" src="images/logo.svg" alt="">
     <p>Social media links</p>
-    <nav class="footer">
-      <ul>
-        <ul>
-          <li><a href="/about"></a>About</li>
-          <li><a href="/about"></a>What We Do</li>
-          <li><a href="/about"></a>FAQ</li>
-          <li><a href="/about"></a>Career</li>
-          <li><a href="/about"></a>Blog</li>
-          <li><a href="/about"></a>Contact Us</li>
-        </ul>
-      </ul>
+    <nav class="footer-nav">
+      <li><a href="/about"></a>About</li>
+      <li><a href="/about"></a>What We Do</li>
+      <li><a href="/about"></a>FAQ</li>
+      <li><a href="/about"></a>Career</li>
+      <li><a href="/about"></a>Blog</li>
+      <li><a href="/about"></a>Contact Us</li>
     </nav>
     &copy; 2018 Huddle Copyright
   </footer>
   <footer>
-
+</div><!-- container end -->
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
         Mentor</a> 🎉
     </p>
   </footer>
+</div>
 </body>
 
 </html>
